@@ -1,9 +1,110 @@
 html {
   font-size: 18px;
 }
+body {
+  font-family: Helvetica;
+  margin: 0 10%;
+}
 .background {
   background-image: url(../resources/glasses-bg.png);
   height: 30rem;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   }
+nav {
+  background-color: cadetblue;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border: pink solid 2px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  padding-right: 2rem;
+}
+h2 {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: 3rem;
+  margin-left: 40%;
+  width: 30%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 20rem;
+}
+.soloproduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 3rem 3rem;
+  height: 8rem;
+}
+.soloproduct img {
+  width: 3.5rem;
+}
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-right: 5%;
+}
+.info h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+.info span {
+  margin-right: 5%;
+  font-size: 0.75rem;
+}
+.footer {
+  background-color: azure;
+  padding: 4rem 4rem;
+  margin: 0 5rem;
+}
+.footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
